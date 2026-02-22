@@ -62,3 +62,8 @@ Loss and accuracy graphs
 Achieved good accuracy on test data.
 Successfully classifies real and fake news articles.
 
+#Future Improvements:
+Add web application using Flask
+Use advanced NLP models 
+Deploy the model on cloud
+
