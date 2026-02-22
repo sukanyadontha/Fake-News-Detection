@@ -22,6 +22,7 @@ NumPy
 Matplotlib
 Scikit-learn
 TensorFlow / Keras
+MySQL
 LSTM (Long Short-Term Memory)
 
 #Dataset
@@ -32,33 +33,32 @@ Label (Real or Fake)
 The model is trained using this labeled dataset.
 
 #Project Workflow (Step-by-Step)
-1️. Data Collection
-Load dataset (CSV file)
-Combine title and text if needed
+1️. Data Collection:
+Load dataset file
 
-2️. Data Preprocessing
+2️. Data Preprocessing:
 Remove special characters
 Convert text to lowercase
 Remove stopwords
 Tokenization
 Padding sequences
 
-3️. Model Building
+3️. Model Building:
 Use LSTM model
 Add Embedding layer
 Add Dense layer with activation function
 
-4️. Model Training
+4️. Model Training:
 Split dataset into training and testing
 Train the model
 Check accuracy
 
-5️. Model Evaluation
+5️. Model Evaluation:
 Calculate accuracy score
 Confusion matrix
 Loss and accuracy graphs
 
-#Model Performance
+#Model Performance:
 Achieved good accuracy on test data.
 Successfully classifies real and fake news articles.
 
